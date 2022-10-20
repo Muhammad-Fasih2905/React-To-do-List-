@@ -1,0 +1,283 @@
+.sub-div{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 49vh;
+    align-items: center;
+}
+.input-div{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    gap: 12px;
+}
+.username{
+    border: 1px solid #ccc;
+    width: 25vw;
+    outline: none;
+    height: 30px;
+    padding-left: 20px;
+    padding-right: 0px;
+    border-radius: 10px;
+}
+.password{
+    border: 1px solid #ccc;
+    width: 25vw;
+    outline: none;
+    height: 30px;
+    padding-left: 20px;
+    padding-right: 0px;
+    border-radius: 10px;
+}
+.login-btn{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.btn{
+    width: 12vw;
+    height: 39px;
+    background-color: #007bff;
+    border: none;
+     color: #fff;
+     font-weight: 700;
+     border-radius: 10px;
+     cursor: pointer;
+}
+.btn:hover{
+   background-color: #0069d9;
+}
+.Forget-password{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    align-self: center;
+    gap: 120px;
+    margin: -58px;
+    color: #fff;
+}
+@media (min-width: 310px) and (max-width: 500px){
+    .sub-div{
+        height: 59vh;
+        width: 401px;
+       align-items: center;
+    }
+    .Forget-password{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        align-self: center;
+        font-size: 12px;
+        gap: 15px;
+        margin: -58px;
+        color: #fff;
+    }
+    .username{
+        border: 1px solid #ccc;
+        justify-content: center;
+        width: 270px;
+        outline: none;
+        height: 30px;
+        padding-left: 20px;
+        padding-right: 0px;
+    }
+    .password{
+        border: 1px solid #ccc;
+        width: 270px;
+        outline: none;
+        height: 30px;
+        padding-left: 20px;
+        padding-right: 0px;
+    }
+    .login-btn{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn{
+        width: 200px;
+        height: 39px;
+       
+      
+    }
+}
+@media (min-width: 500px) and (max-width: 800px){
+    .Forget-password{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        align-self: center;
+        gap: 45px;
+        margin: -58px;
+        color: #fff;
+    }
+    .username{
+        border: 1px solid #ccc;
+        width: 300px;
+        outline: none;
+        height: 30px;
+        padding-left: 20px;
+        padding-right: 0px;
+    }
+    .password{
+        border: 1px solid #ccc;
+        width: 300px;
+        outline: none;
+        height: 30px;
+        padding-left: 20px;
+        padding-right: 0px;
+    }
+    .login-btn{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn{
+        width: 200px;
+        height: 39px;
+        background-color: #007bff;
+        border: none;
+         color: #fff;
+         font-weight: 700;
+         border-radius: 10px;
+         cursor: pointer;
+    }
+
+}
+@media (min-width: 800px) and (max-width: 1100px){
+    .Forget-password{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        align-self: center;
+        gap: 45px;
+        margin: -58px;
+        color: #fff;
+    }
+    .username{
+        border: 1px solid #ccc;
+        width: 300px;
+        outline: none;
+        height: 30px;
+        padding-left: 20px;
+        padding-right: 0px;
+    }
+    .password{
+        border: 1px solid #ccc;
+        width: 300px;
+        outline: none;
+        height: 30px;
+        padding-left: 20px;
+        padding-right: 0px;
+    }
+    .login-btn{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn{
+        width: 200px;
+        height: 39px;
+        background-color: #007bff;
+        border: none;
+         color: #fff;
+         font-weight: 700;
+         border-radius: 10px;
+         cursor: pointer;
+    }
+}
+@media (min-width: 1601px) and (max-width: 2900px){
+    .Forget-password{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        align-self: center;
+        gap: 45px;
+        margin: -58px;
+        color: #fff;
+    }
+    .username{
+        border: 1px solid #ccc;
+        width: 350px;
+        outline: none;
+        height: 30px;
+        padding-left: 20px;
+        padding-right: 0px;
+    }
+    .password{
+        border: 1px solid #ccc;
+        width: 350px;
+        outline: none;
+        height: 30px;
+        padding-left: 20px;
+        padding-right: 0px;
+    }
+    .login-btn{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn{
+        width: 350px;
+        height: 39px;
+        background-color: #007bff;
+        border: none;
+         color: #fff;
+         font-weight: 700;
+         border-radius: 10px;
+         cursor: pointer;
+    }
+}
+/* @media(min-width:320px) and (max-width:1440px){
+    .login-btn{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn{
+        width: 25%;
+        height: 39px;
+        background-color: #007bff;
+        border: none;
+         color: #fff;
+         font-weight: 700;
+         border-radius: 10px;
+         cursor: pointer;
+    }
+    .btn:hover{
+       background-color: #0069d9;
+    }
+    .Forget-password{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        align-self: center;
+        gap: 25px;
+        margin: -58px;
+    }
+    .sub-div{
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center; 
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        margin: 30px;
+        padding: 10px 20px 10px 20px;
+    }
+} */
